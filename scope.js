@@ -5,7 +5,8 @@ function outer(){
     console.log("Outer b:", b);
     
     function inner() {
-     
+        console.log("Inner a:", a);
+        console.log("Inner b:", b);
     }
   
     inner();
