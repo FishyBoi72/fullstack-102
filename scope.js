@@ -4,7 +4,7 @@ function outer(){
     console.log("Outer a:", a);
     console.log("Outer b:", b);
     
-    function inner() {
+    function inner(a, b) {
         console.log("Inner a:", a);
         console.log("Inner b:", b);
     }
