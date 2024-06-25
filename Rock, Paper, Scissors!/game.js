@@ -44,9 +44,9 @@ function playRound(player1Hand, player2) {
     // Decides winner based on which hand is played
     let winner = null;
     if (
-        (hand1 === 'rock' && hand2 === 'scissors') ||
-        (hand1 === 'scissors' && hand2 === 'paper') ||
-        (hand1 === 'paper' && hand2 === 'rock')
+        (hand1 === 'Rock' && hand2 === 'Scissors') ||
+        (hand1 === 'Scissors' && hand2 === 'Paper') ||
+        (hand1 === 'Paper' && hand2 === 'Rock')
     ) {
         winner = player1;
     } else {
